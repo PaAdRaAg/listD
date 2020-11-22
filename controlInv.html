@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Inventario</h1>
+    </center>
+    <hr>
+    <br>
+    <label for="text">Características del producto:</label>
+    <br>
+    <input type="number" id="cantPA" placeholder="Cantidad del producto"/>
+    <input type="number" id="codPA" placeholder="Código del producto"/>
+    <input type="text" id="nomPA" placeholder="Nombre del producto"/>
+    <input type="number" id="costPA" placeholder="Costo del producto"/>
+    <input type="text" id="descPA" placeholder="Descripción del producto"/>
+    <input type="button" value="Agregar" class="column" id="agregarBtn"/>
+    <br>
+    <br>
+    <input type="number" id="codEl" placeholder="Eliminar por código."/>
+    <input type="button" value="Eliminar" class="column" id="elBtn"/>
+    <label id="tabla1"></label>
+    <br>
+    <br>
+    <input type="number" id="codBu" placeholder="Buscar por código."/>
+    <input type="button" value="Buscar" class="column" id="buBtn"/>
+    <label id="tabla2"></label>
+    <br>
+    <br>
+    <input type="button" value="Imprmir" class="column" id="impBtn"/>
+    <label id="tabla3"></label>
+    <br>
+    <br>
+    <input type="button" value="Imprimir inverso" class="column" id="impInvBtn"/>
+    <label id="tabla4"></label>
+    <br>
+    <br>
+    <input type="button" value="Eliminar primero" class="column" id="elPrim"/>
+    <label id="tabla5"></label>
+</body>
+<script src="controlInvD.js"></script>
+</html>
